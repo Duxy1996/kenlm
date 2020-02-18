@@ -6,6 +6,14 @@ I do development in master on https://github.com/kpu/kenlm/.  Normally, it works
 
 The website https://kheafield.com/code/kenlm/ has more documentation.  If you're a decoder developer, please download the latest version from there instead of copying from another decoder.
 
+## Dependencies
+
+* Boost v1.58 sudo apt-get install libboost1.58-all-dev
+* Zlib  sudo apt-get install zlib1g-dev
+* BZip2 sudo apt-get install libbz2-dev
+* LibLZMA sudo apt-get install libbz2-dev
+* Eigen3 sudo apt-get install libeigen3-dev
+
 ## Compiling
 Use cmake, see [BUILDING](BUILDING) for more detail.
 ```bash
